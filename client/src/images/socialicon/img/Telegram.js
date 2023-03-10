@@ -1,9 +1,24 @@
+import { useScreens } from "../../../constans/constScreens"
 const Telegram = () => {
+  const screens = useScreens()
   return (
     <div>
       <span className="ant-tag ant-tag-has-color css-dev-only-do-not-override-otkmn1"
-        style={{
-          backgroundColor: '#229ED9', paddingTop: '1px', paddingBottom: '1px', paddingLeft:'5px', paddingRight:'5px'}}
+       style={
+        screens.lg ? 
+        {
+          backgroundColor: '#7f4da0',
+          }
+          :
+          {
+            backgroundColor: '#7f4da0',
+            paddingTop: '2px',
+            paddingBottom: '2px',
+            paddingLeft: '7px',
+            paddingRight: '7px',
+            borderRadius:'8px'
+            }
+      }
       >
         <span role="img" className="anticon">
 
