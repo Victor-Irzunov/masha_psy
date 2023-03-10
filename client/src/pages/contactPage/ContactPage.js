@@ -9,8 +9,8 @@ export const ContactPage = () => {
 	return (
 		<section className='pt-10'>
 			<Helmet>
-				<title>{'Контакты психолога в Минске'}</title>
-				<meta name="description" content={''} />
+				<title>{'Контакты психолога в Минске | Ирзунова Мария'}</title>
+				<meta name="description" content={'На странице контакты для записи на консультацию к психологу в Минске Марии Ирзуновой.'} />
 			</Helmet>
 			<motion.div
 				initial="hidden"

@@ -164,6 +164,18 @@ export default function BtnMenuNavigate() {
           </LinkScroll>
         </motion.li>
 
+        <motion.li variants={itemVariants}>
+          <LinkScroll to='form'
+            smooth={true}
+            offset={-100}
+            duration={800}
+            className="cursor-pointer"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            написать Марии
+          </LinkScroll>
+        </motion.li>
+
 
       </motion.ul>
     </motion.nav>

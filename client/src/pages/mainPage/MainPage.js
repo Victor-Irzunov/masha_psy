@@ -1,6 +1,7 @@
 import { Button, Divider, FloatButton } from 'antd'
 import React from 'react'
 import { FormOutlined, PhoneOutlined } from '@ant-design/icons'
+import { Helmet } from "react-helmet"
 import SliderComp from '../../components/slider/SliderComp'
 import { Link } from 'react-router-dom'
 import { motion } from "framer-motion"
@@ -47,6 +48,10 @@ const imageAnimation = {
 export const MainPage = () => {
 	return (
 		<section className='mt-6 overflow-hidden pt-8'>
+				<Helmet>
+				<title>{'Психолог Минск| Консультация психолога | Ирзунова Мария'}</title>
+				<meta name="description" content={'Частный психолог в Минске принимает онлайн и в кабинете. Входит в топ лучших психологов, применяет эффективные методики, помогает справиться со стрессом.'} />
+			</Helmet>
 			<motion.div
 				initial="hidden"
 				whileInView="visible"

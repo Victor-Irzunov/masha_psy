@@ -9,8 +9,8 @@ export const AboutPage = () => {
 	return (
 		<section className='pt-10'>
 			<Helmet>
-				<title>{''}</title>
-				<meta name="description" content={''} />
+				<title>{'Психолог Мария Ирзунова | Минск '}</title>
+				<meta name="description" content={'Психолог в Минске Мария Ирзунова. Практический и Перинатальный Психолог, Член Российской Ассоциации Репродукции Человека и Международной Ассоциации Психологов. Работает в Гештальт, КПТ и АРТ направлениях.'} />
 			</Helmet>
 			<motion.div
 				initial="hidden"

@@ -4,10 +4,15 @@ import {
 	titleAnimation,
 	titleAnimation2
 } from '../../constans/animation/AnimationConst'
+import { Helmet } from "react-helmet"
 
 export const PricePage = () => {
 	return (
 		<section className='pt-10'>
+			<Helmet>
+				<title>{'Психолог Минск цена | Ирзунова Мария'}</title>
+				<meta name="description" content={'Стоимость консультации психолога в Минске. ☝ Лучший частный психолог принимает в Минске. Узнать стоимость услуги и записаться ✍️ на консультацию.'} />
+			</Helmet>
 			<motion.div
 				initial="hidden"
 				whileInView="visible"
@@ -37,7 +42,7 @@ export const PricePage = () => {
 						<p className='uppercase text-white sd:text-[10px] xy:text-[8px] mb-0'>стоимость</p>
 					</div>
 					<div className='w-1/4 h-20 shadow-lg bg-gray-700 flex justify-center items-center m-0.5'>
-						<p className='uppercase text-white sd:text-[10px] xy:text-[8px] mb-0 text-center'>время <br/>консультации</p>
+						<p className='uppercase text-white sd:text-[10px] xy:text-[8px] mb-0 text-center'>время <br />консультации</p>
 					</div>
 					<div className='w-1/4 h-20 shadow-lg bg-gray-700 flex justify-center items-center m-0.5'>
 						<div className='text-center'>

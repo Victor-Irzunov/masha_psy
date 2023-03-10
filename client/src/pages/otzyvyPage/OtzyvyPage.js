@@ -36,8 +36,8 @@ export const OtzyvyPage = () => {
 	return (
 		<section className='pt-10 pb-20'>
 			<Helmet>
-				<title>{''}</title>
-				<meta name="description" content={''} />
+				<title>{'Отзывы психолога в Минске | Ирзунова Мария'}</title>
+				<meta name="description" content={'⭐️ Рейтинг и реальные отзывы ⚡ психолога в Минске Марии Ирзуновой.'} />
 			</Helmet>
 			<motion.div
 				initial="hidden"

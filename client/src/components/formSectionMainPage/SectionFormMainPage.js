@@ -39,7 +39,7 @@ export const SectionFormMainPage = () => {
 	return (
 		<section
 			className='sd:px-10 xy:px-5 py-10 bg-[#191c1d]'
-			id='vopros'
+			id='form'
 		>
 			<div className='container'>
 				<motion.div
@@ -51,7 +51,7 @@ export const SectionFormMainPage = () => {
 						className='sd:w-[30%] xy:w-full'
 						variants={titleAnimation}
 					>
-						<p className='text-white text-lg font-light tracking-wider'>Напишите мне,<br /> что Вас интерисует <br /> или  беспокоит</p>
+						<p className='text-white text-lg font-light tracking-wider'>Напишите мне,<br /> что Вас интересует <br /> или  беспокоит</p>
 					</motion.div>
 					<motion.div
 						className='sd:w-[60%] xy:w-full pt-10'
