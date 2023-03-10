@@ -12,11 +12,11 @@ const Viber = () => {
 						:
 						{
 							backgroundColor: '#7f4da0',
-							paddingTop: '2px',
-							paddingBottom: '2px',
-							paddingLeft: '6px',
-							paddingRight: '6px',
-							borderRadius:'5px'
+							paddingTop: '3px',
+							paddingBottom: '3px',
+							paddingLeft: '7px',
+							paddingRight: '7px',
+							borderRadius:'4px'
 							}
 				}
 			>

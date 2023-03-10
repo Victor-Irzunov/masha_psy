@@ -4,21 +4,22 @@ const Telegram = () => {
   return (
     <div>
       <span className="ant-tag ant-tag-has-color css-dev-only-do-not-override-otkmn1"
-       style={
-        screens.lg ? 
-        {
-          backgroundColor: '#7f4da0',
-          }
-          :
+      
+        style={
+          screens.lg ? 
           {
-            backgroundColor: '#7f4da0',
-            paddingTop: '2px',
-            paddingBottom: '2px',
-            paddingLeft: '7px',
-            paddingRight: '7px',
-            borderRadius:'8px'
+            backgroundColor: '#229ED9',
             }
-      }
+            :
+            {
+              backgroundColor: '#7f4da0',
+              paddingTop: '3px',
+              paddingBottom: '3px',
+              paddingLeft: '7px',
+              paddingRight: '7px',
+              borderRadius:'4px'
+              }
+        }
       >
         <span role="img" className="anticon">
 
