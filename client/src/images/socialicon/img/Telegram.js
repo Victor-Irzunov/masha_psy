@@ -2,7 +2,8 @@ const Telegram = () => {
   return (
     <div>
       <span className="ant-tag ant-tag-has-color css-dev-only-do-not-override-otkmn1"
-        style={{ backgroundColor: '#229ED9' }}
+        style={{
+          backgroundColor: '#229ED9', paddingTop: '1px', paddingBottom: '1px', paddingLeft:'5px', paddingRight:'5px'}}
       >
         <span role="img" className="anticon">
 

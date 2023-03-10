@@ -8,7 +8,7 @@ import {
 	// yAnimation,
 	yCustomAnimation,
 } from '../../constans/animation/AnimationConst'
-import { Image, message } from 'antd'
+import { Image, message,Empty } from 'antd'
 import { Link } from 'react-router-dom'
 import CyrillicToTranslit from 'cyrillic-to-translit-js'
 import { EyeOutlined, EditOutlined, LikeOutlined, DislikeOutlined } from '@ant-design/icons'
@@ -64,10 +64,8 @@ export const BlogPage = () => {
 
 			<div className='h-20'></div>
 
-
-
 			{
-				data.length && data.map(el => {
+				data.length ? data.map(el => {
 					const img = JSON.parse(el.img)[0].img
 					return (
 						<motion.div
@@ -155,8 +153,8 @@ export const BlogPage = () => {
 						</motion.div>
 					)
 				})
-				// :
-				// <Empty />
+				:
+				<Empty />
 			}
 
 		</section>

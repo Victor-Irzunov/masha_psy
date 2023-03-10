@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
 import { titleAnimation2, titleAnimation, yAnimation } from '../../constans/animation/AnimationConst'
 import { ExclamationCircleOutlined, HeartOutlined, UserOutlined } from '@ant-design/icons'
-import { Popover, Rate, Avatar, Button,Image } from 'antd'
+import { Popover, Rate, Avatar, Button,Image, Empty } from 'antd'
 import avatar from '../../images/logo2.webp'
 import { FormOtzyvy } from '../../components/form/FormOtzyvy'
 import moment from 'moment'
@@ -59,7 +59,7 @@ export const OtzyvyPage = () => {
 			</motion.div>
 
 
-			{data.length && data.map(el => {
+			{data.length ? data.map(el => {
 				if (el.isPublication) {
 					return (
 						<motion.div
@@ -133,7 +133,11 @@ export const OtzyvyPage = () => {
 						</motion.div>
 					)
 				}
-			})}
+			})
+				:
+				<Empty/>
+		}
+
 
 
 
