@@ -133,6 +133,7 @@ const App = observer(() => {
                   <Routes>
                     <Route path='/' element={<MainPage />} />
                     <Route path='/:link' element={<UniversalPage />} />
+                    <Route path='/uslugi/:link' element={<UniversalPage />} />
                     <Route path='/tsena-psikhologa' element={<PricePage />} />
                     <Route path='/zapis-k-psikhologu' element={<ZapisNaPriyomPage />} />
                     <Route path='/uslugi' element={<ServicePage />} />

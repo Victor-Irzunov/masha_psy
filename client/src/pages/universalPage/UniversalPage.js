@@ -40,40 +40,49 @@ export const UniversalPage = () => {
 		case '/besplodie':
 			data = dataBesplodie
 			break
-		case '/semeinii-psikholog':
+		// case '/semeinii-psikholog':
+		// 	data = dataSemejnyj
+		// 	break
+		case '/uslugi/semeinii-psikholog':
 			data = dataSemejnyj
 			break
-		case '/psikholog-dlya-podrostka':
+		// case '/psikholog-dlya-podrostka':
+		// 	data = dataPodrostok
+		// 	break
+		case '/uslugi/psikholog-dlya-podrostka':
 			data = dataPodrostok
 			break
 		case '/zhenskii-psikholog':
 			data = dataZhenskii
 			break
+		// case '/uslugi/zhenskii-psikholog':
+		// 	data = dataZhenskii
+		// 	break
 		case '/lechenie-depressii':
 			data = dataZhenskii
 			break
-		case '/stoimost-psikhologa-v-minske':
-			data = dataZhenskii
-			break
-		case '/zapis-k-psikhologu-v-minske':
-			data = dataZhenskii
-			break
-		case '/mariya-irzunova-v-sredstvakh-massovoi-informatsii':
-			data = dataZhenskii
-			break
-		case '/mariya-irzunova':
-			data = dataZhenskii
-			break
-		case '/mariya-irzunova-otzivi':
-			data = dataZhenskii
-			break
-		case '/psikholog-kontakti':
-			data = dataZhenskii
-			break
-		case '/individualnaya-konsultatsiya':
+		// case '/stoimost-psikhologa-v-minske':
+		// 	data = dataZhenskii
+		// 	break
+		// case '/zapis-k-psikhologu-v-minske':
+		// 	data = dataZhenskii
+		// 	break
+		// case '/mariya-irzunova-v-sredstvakh-massovoi-informatsii':
+		// 	data = dataZhenskii
+		// 	break
+		// case '/mariya-irzunova':
+		// 	data = dataZhenskii
+		// 	break
+		// case '/mariya-irzunova-otzivi':
+		// 	data = dataZhenskii
+		// 	break
+		// case '/psikholog-kontakti':
+		// 	data = dataZhenskii
+		// 	break
+		case '/uslugi/individualnaya-konsultatsiya':
 			data = dataIndividualnayaConst
 			break
-		case '/konsultatsiya-perinatalnogo-psikhologa':
+		case '/uslugi/konsultatsiya-perinatalnogo-psikhologa':
 			data = dataPerinatalnogoConst
 			break
 

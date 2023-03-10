@@ -23,7 +23,7 @@ export const itemsSection = [
 		nav: '#семейные проблемы',
 		title: 'Проблемы в семейных отношениях',
 		content: 'У тебя нет больше сил и нужна помощь?',
-		link: '/semeinii-psikholog',
+		link: '/uslugi/semeinii-psikholog',
 		navId: 'semeiya',
 	},
 	{
@@ -32,7 +32,7 @@ export const itemsSection = [
 		nav: '#проблемы у подростка',
 		title: 'Проблемы у ребенка',
 		content: 'Не знаешь что дальше делать и тебе нужна помощь?',
-		link: '/psikholog-dlya-podrostka',
+		link: '/uslugi/psikholog-dlya-podrostka',
 		navId: 'podrostok',
 	},
 	{

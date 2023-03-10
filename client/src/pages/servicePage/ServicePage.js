@@ -65,7 +65,7 @@ export const ServicePage = () => {
 							</div>
 							<div className='sd:p-5 xy:p-2 font-light xy:w-8/12 sd:w-full'>
 								<h3 className='sd:text-lg xy:text-base'>
-									<Link to={`/${cyrillicToTranslit.transform(el.link.split(' ').join('-'))}`}
+									<Link to={`/uslugi/${cyrillicToTranslit.transform(el.link.split(' ').join('-'))}`}
 										className='border-b border-black'
 									>
 										{el.h3}
