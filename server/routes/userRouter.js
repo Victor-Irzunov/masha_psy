@@ -13,5 +13,8 @@ router.post('/login', userController.login)
 router.get('/account', authMiddleware, userController.myAccount)
 router.get('/auth', authMiddleware, userController.check)
 router.get('/activate/:link', userController.activate)
+router.get('/activate/reset/:link', userController.activateReset)
+router.get('/reset', userController.reset)
+router.put('/new/password', userController.newPassword)
 
 export default router
