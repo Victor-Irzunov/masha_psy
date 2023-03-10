@@ -1,0 +1,37 @@
+/* @import '~antd/dist/antd.css'; */
+/* @import 'antd/dist/antd.variable.min.css'; */
+/* @import 'antd/dist/antd.variable.min.css'; */
+@import 'react-big-calendar/lib/css/react-big-calendar.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* img, */
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block !important;
+}
+
+button, [type='button'], [type='reset'], [type='submit']{
+  //background-color: #65a30d;
+  box-shadow: 0 0 #0000;
+}
+.ant-btn {
+  background-color: #65a30d;
+}
+
+:where(.css-dev-only-do-not-override-i1efy4).ant-btn-default:not(:disabled):hover{
+  color:#fff;
+}
+
+.go695645437{
+margin: 0 !important;
+}

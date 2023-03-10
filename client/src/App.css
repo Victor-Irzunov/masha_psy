@@ -1,0 +1,52 @@
+.app{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #cdcecf;
+ }
+ .container{
+	margin: 0 auto;
+ }
+.active{
+	color: #fff;
+}
+
+.ql-size-huge {
+	font-size: 2.5em !important;
+}
+.ql-align-center{
+	text-align: center;
+}
+.ql-align-right{
+	text-align: right;
+}
+
+h1{
+	font-size: 2rem;
+}
+h2{
+	font-size: 1.6rem;
+}
+img{
+margin-bottom: 1em;
+}
+
+.contact:before{
+	content: "";
+    display: block;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+:where(.css-dev-only-do-not-override-otkmn1).ant-drawer .ant-drawer-wrapper-body{
+	background: #cdcecf;
+}
+
+:where(.css-dev-only-do-not-override-otkmn1).ant-collapse .ant-collapse-content>.ant-collapse-content-box{
+padding: 0;
+}
