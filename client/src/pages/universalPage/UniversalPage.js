@@ -8,6 +8,8 @@ import dataSemejnyj from '../../constans/semejnyj/SemejnyjConst'
 import dataBesplodie from '../../constans/besplodie/BesplodieConst'
 import dataPodrostok from '../../constans/podrostok/PodrostokConst'
 import dataZhenskii from '../../constans/zhenskii/ZhenskiiConst'
+import dataIndividualnayaConst from '../../constans/individualnaya/IndividualnayaConst'
+import dataPerinatalnogoConst from '../../constans/perinatalnogo/PerinatalnogoConst'
 import { UniversalComp } from '../../components/UniversalComp/UniversalComp'
 import {
 	titleAnimation,
@@ -68,6 +70,13 @@ export const UniversalPage = () => {
 		case '/psikholog-kontakti':
 			data = dataZhenskii
 			break
+		case '/individualnaya-konsultatsiya':
+			data = dataIndividualnayaConst
+			break
+		case '/konsultatsiya-perinatalnogo-psikhologa':
+			data = dataPerinatalnogoConst
+			break
+
 	}
 
 
